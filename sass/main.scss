@@ -1,0 +1,11 @@
+@import '_vars';
+@import 'modules/header';
+@import 'modules/class-content';
+@import 'modules/sidebar';
+@import 'modules/footer';
+
+body {
+    background-color: $main-background;
+    font-family: $font-stack;
+    font-size: $text-size;
+}
